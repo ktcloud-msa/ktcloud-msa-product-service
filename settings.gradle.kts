@@ -21,17 +21,7 @@ dependencyResolutionManagement {
 rootProject.name = "market"
 
 include(
-    "inventory",
-    "inventory-service",
-    "order",
-    "order-service",
     "product",
     "product-service",
     "common",
-    "client-redis",
-    "inventory-event",
-    "user",
-    "auth",
-    "user-api-gateway",
-    "auth-service",
 )
